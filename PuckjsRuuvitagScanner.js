@@ -111,6 +111,7 @@ var RuuviTagScanner = (function() {
 
 // ______MAIN___________ 
 
-var ruuvitags = [new RuuviTag('e4:b0:90:c7:12:a9', 'RuuviTag#1'), new RuuviTag('f6:8c:ac:03:a6:73', 'RuuviTag#2')];
+//var ruuvitags = [new RuuviTag('e4:b0:90:c7:12:a9', 'RuuviTag#1'), new RuuviTag('f6:8c:ac:03:a6:73', 'RuuviTag#2')];
+//RuuviTagScanner.startScanning(function(tags) { console.log(tags); }, ruuvitags, 5000);
 
-RuuviTagScanner.startScanning(function(tags) { console.log(tags); }, ruuvitags, 5000);
+RuuviTagScanner.startScanning(function(tags) { console.log(tags); });
