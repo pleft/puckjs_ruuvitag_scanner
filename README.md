@@ -11,6 +11,9 @@ As the name of the project implies, you need to have one Puck.js beacon and one 
 * Upload file PuckjsRuuvitagScanner.js in you Puck.js beacon.
 * Once uploaded, Puck.js will start to scan for Ruuvitag beacons and display info about them (Blue led will flash each time a scan is taking place).
 
+
+### Commands
+
 The command to start scanning and show info is:
 
 `RuuviTagScanner.startScanning(function(tags) { console.log(tags); });`
@@ -34,6 +37,10 @@ Output will have the format (if two Ruuvitag beacons are in range):
 ```
 
 Of course the callback function in `startScanning` method can be changed as per user desires.
+
+The command to stop scanning is:
+
+`RuuviTagScanner.startScanning();`
 
 ## Acknowledgements
 Temperature, humidity and pressure data decoding algorithms have been sourced from another great github project [ruuvitag-sensor](https://github.com/ttu/ruuvitag-sensor)
