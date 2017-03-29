@@ -40,7 +40,7 @@ Of course the callback function in `startScanning` method can be changed as per 
 
 The command to stop scanning is:
 
-`RuuviTagScanner.startScanning();`
+`RuuviTagScanner.stopScanning();`
 
 ## Acknowledgements
 Temperature, humidity and pressure data decoding algorithms have been sourced from another great github project [ruuvitag-sensor](https://github.com/ttu/ruuvitag-sensor)
